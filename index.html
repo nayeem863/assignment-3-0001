@@ -11,10 +11,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <title></title>
+    <title>Pet Shop</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawsome -->
+    <script src="https://kit.fontawesome.com/a0ad78fa93.js" crossorigin="anonymous"></script>
     <style>
         
     .sora{
@@ -33,13 +35,76 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'accent':'#FFDC26',
               }
             }
           }
         }
       </script>
 </head>
-<body>
-    
+<body class="sora">
+    <!-- header -->
+    <header class="">
+        <!-- navbar -->
+        <nav class="bg-[#FFF9F4] max-w-screen-2xl">
+        <div class="navbar max-w-screen-xl mx-auto">
+            <div class="navbar-start flex ">
+                <img src="c1-assets/logo-header.png" alt="">
+             
+              <a class="lg:btn lg:btn-ghost lg:text-2xl md:btn md:btn-ghost md:text-2xl lg:block md:block hidden"><span>Browse<span class="text-accent">4</span>Pets</span></a>
+            </div>
+            <div class="navbar-center hidden lg:flex hidden lg:block md:hidden">
+              <ul class="menu menu-horizontal px-1 text-[#111111]">
+                <li><a class="text-xl">Find a pet</a></li>
+                <li><a class="text-xl" href="">Breeds</a></li>
+                <li><a class="text-xl">Contact Us</a></li>
+              </ul>
+            </div>
+            
+            <div class="navbar-end gap-x-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 lg:hidden md:hidden">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+                  
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 lg:block md:block hidden">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+                  </svg>
+                  
+                <i class="fa-solid fa-magnifying-glass lg:block md:block hidden"></i>
+                <button class="btn btn-outline btn-warning !text-[#111111] border border-2 !border-accent lg:block md:block hidden">Login</button>
+                <button class="btn btn-warning lg:block md:block hidden">Register</button>
+            </div>
+          </div>
+        
+
+        </nav>
+        <!-- banner -->
+        <div class="max-w-screen-xl relative lg:mx-auto md:mx-auto sm:px-5 !mb-20">
+
+            <div class="max-w-2xl lg:mx-0 md:mx-4 sm:mx-4 relative flex flex-wrap flex-col">
+                <h1 class="text-5xl font-bold !text-adlam-display">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h1>
+                    <p class="py-6">
+                        Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!
+                    </p>
+                   
+            </div>
+            <button class="btn btn-warning mb-0 lg:mx-0 md:mx-4 sm:mx-4">Find A Pet</button>
+            <img
+            src="c1-assets/cat-big.png"
+            class="lg:absolute p-0 mt-0 rounded-lg w-max mix-blend-multiply lg:-top-20"
+        />
+            
+          
+        </div>
+           
+    </header>
+    <!-- main -->
+     <main>
+        <section>
+            <h1></h1>
+        </section>
+     </main>
+     <!-- footer -->
+      <footer></footer>
 </body>
 </html>
